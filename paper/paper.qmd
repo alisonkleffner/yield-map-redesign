@@ -115,7 +115,7 @@ Maintaining spatial context is crucial as yield can vary spatially due to variab
 
 ![Seed Trial](../images/old_map.png){#fig-difmmap1a height=50%}
 
-![Nitrogen Trial](../images/paper/nitrogen-trial.png){#fig-difmmap1b height=50%}
+![Nitrogen Trial](../images/nitrogen-trial.png){#fig-difmmap1b height=50%}
 
 Example of a current map produced by DIFM for farmers that superimposes the trial design and yield information. These figures represent a seed and nitrogen trial conducted simultaneously. The blue circles in (b) were manually added to denote areas where the lowest target nitrogen group and highest nitrogen group are side-by-side. They generally show that low yield is associated with the lowest target and high yield with the highest target rate. These plots violate several principles of effective chart design, like failing to show the data clearly. 
 :::
@@ -215,7 +215,7 @@ On the other hand, superimposed graphs show the data while allowing the user to 
 When spatial location is a key component of the comparison, the superimposed layout is beneficial, as the individual maps occupy the same axes [@Wood2007InteractiveVE; @wang_comp18]. 
 In this section, we plan to address the perceptual issues one at a time. We begin by addressing one of the major issues with the original map (@fig-difmmap1a): the overplotted circles, which make it impossible to see the yield information, as the circle boundaries (which are not colored) are more prominent than the shaded interior and tend to overlap.
 
-![The first step in the redesign process, maintains the initial color scheme, but transparency was introduced to allow both layers to be shown simultaneously. This potentially allows the user to derive a correlation between these variables through implicit color blending.](../images/paper/Attempt1.png){#fig-redesign1}
+![The first step in the redesign process, maintains the initial color scheme, but transparency was introduced to allow both layers to be shown simultaneously. This potentially allows the user to derive a correlation between these variables through implicit color blending.](../images/Attempt1.png){#fig-redesign1}
 
 The first redesign iteration (@fig-redesign1) superimposes the yield and trial design maps. 
 Note that yield measurements in the headland (the region around the trial design) are omitted, as this data is less reliable due to differences in sun exposure and changes in driving speed, among others. 
@@ -225,7 +225,7 @@ During this first design iteration, we maintained the (problematic) color scheme
 The top layer (yield map) introduces transparency to discern both design elements, and the relationship between the variables is determined through blending colors [@MIDWAY2020100141]. 
 Finally, a continuous scale was used for yield measurements instead of a discrete.
 
-![The second step in the redesign process focuses on color choice. Here, instead  of the problematic red-green color scheme, a blue sequential palette is introduced for the treatment variables, so the two variables are distinguishable to those who are red-green color blind.](../images/paper/Attempt2.png){#fig-redesign2}
+![The second step in the redesign process focuses on color choice. Here, instead  of the problematic red-green color scheme, a blue sequential palette is introduced for the treatment variables, so the two variables are distinguishable to those who are red-green color blind.](../images/Attempt2.png){#fig-redesign2}
 
 We introduced a different color scheme in the second design iteration (@fig-redesign2) to address the colorblindness issues from the first iteration. We continued to use red for the response variable (yield). 
 In this iteration, we utilized a continuous scale for the yield measurement. 
@@ -236,9 +236,9 @@ This map allows the user to see that higher nitrogen rates are associated with a
 
 ::: {#fig-biv-color layout-ncol=2}
 
-![Bivariate Color Map](../images/paper/color-map4.png){#fig-biv-map width=65%}
+![Bivariate Color Map](../images/color-map4.png){#fig-biv-map width=65%}
 
-![Scatterplot of data using the same colors](../images/paper/scatt-color6.png){#fig-biv-scat width=35%}
+![Scatterplot of data using the same colors](../images/scatt-color6.png){#fig-biv-scat width=35%}
 
 The bivariate color map has been suggested as an alternative to blending colors for bivariate data. In this map, each of the variables are made into three categories. Extra attention is focused on the diagonal of the color scheme to show the relationship between the variables. For example, the black representing high input application and high yield sticks out. A scatterplot is added to give more specific information about the value of the different data points. 
 
@@ -257,7 +257,7 @@ In this plot, the points represent the as-applied versus the yield, colored by t
 
 
 
-![This plot directly states the relationship (correlation) between the as-applied treatment information and crop yield.](../images/paper/corr-plot2.png){#fig-redesign3}
+![This plot directly states the relationship (correlation) between the as-applied treatment information and crop yield.](../images/corr-plot2.png){#fig-redesign3}
 
 Next, we wanted to provide a more direct statement of the correlation between input application rates and yield (@fig-redesign3), as determination of this relationship through color blending may be difficult and time-consuming for some users. 
 Directing statign the correlation uses another comparative layout: explicit encoding. Explicit encoding is helpful as it displays the encoding of the relationship, which spares the viewer of the effort to find it [@gleicher2011]. 
@@ -269,7 +269,7 @@ A diverging color palette was used, as correlation values have both magnitude an
 This is due to the common cultural association of blues for negative numbers and red for positive numbers when used in conjunction. 
 The viewer now directly sees the relationship between the variables while maintaining some spatial orientation through the trial plots. 
 
-![This figure overcomes the decontextualization weakness of Figure 5 by juxtaposing the correlation plot with a scatterplot of the values used in the correlation calculations. They are connected using interactivity. ](../images/paper/corr-with-scat3.png){#fig-redesign4}
+![This figure overcomes the decontextualization weakness of Figure 5 by juxtaposing the correlation plot with a scatterplot of the values used in the correlation calculations. They are connected using interactivity. ](../images/corr-with-scat3.png){#fig-redesign4}
 
 Unfortunately, while the relationship between the variables was directly encoded, it can be complicated to connect the displayed relationship back to the data [@gleicher2011]. 
 Meaning, while the plot states the correlation, it gives no additional information on the application rate or yield. 
