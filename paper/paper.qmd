@@ -132,6 +132,7 @@ First, the circles representing the harvested crop yield overlap, obstructing th
 Due to the overlap, distinguishing the circle color requires more effort, made even more difficult by its black outline.
 As a consequence of the color obstruction, errors may occur when searching for a pattern between yield and treatment, the goal of the map, as the density of the overlapping measurement burdens the human perception [@huang2009]. 
 Clutter issues are common among superimposed graphics, as these graphs attempt to display multiple variables in the same space [@gleicher2011].  
+
 A second perceptual concern with @fig-maps is related to the number of categories used to group the yield measurements (eight). 
 Due to working memory limits, the recommendation for categorical scales is five to seven [@Miller1956TheMN; @SILVA2011320]. 
 As the number of categories increases, it becomes harder for the user to distinguish between colors, and remember the meaning of each color [@macdonald_1999]. 
