@@ -4,9 +4,6 @@
 
 ### University of Nebraska at Lincoln
 
-<br>
-
-Manuscript under preparation can be found [here](https://alisonkleffner.github.io/yield-map-redesign/paper/paper.pdf).
 
 **Abstract** 
 
@@ -15,10 +12,9 @@ A standard method to display the relationship between two variables is through v
 
 **File Structure**
 
-+ paper
-  - Contains folders for creating the manuscript under preparation
+
 + code
   - Code to develop suggested plots used in paper
   - Note: We are unable to provide the data at this time. File contains a description of what the provided data frames would look like
-+ images
-  - pictures of the suggested plots
++ interactive-example.html 
+  - Interactive plot example
