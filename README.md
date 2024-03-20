@@ -1,13 +1,10 @@
-# Redesigning Yield Map Plots for Comprehension and Usability
+# Redesigning the Visualization of Spatial Experimental Plots for Comprehension and Usability
 
-### Alison Kleffner, Susan VanderPlas
-
-### University of Nebraska at Lincoln
-
+### Alison Kleffner, Laila A Puntel, Susan VanderPlas
 
 **Abstract** 
 
-A standard method to display the relationship between two variables is through visualization. However, if these variables occupy the same spatial domain, there is difficulty in perceiving any statistical relationships between the data. Data occupying the same spatial domain is common in the agricultural field, and while visualizations in this area exist, they do not conform to the principles of effective chart design. As a motivating example to illustrate challenges and potential solutions, we examined visualizing the relationship between crop input application and crop yield. Understanding this relationship is crucial as inefficiently applying crop inputs, like nitrogen fertilizer, impacts profit and the environment. The purpose of the Data Intensive Farm Management (DIFM) project is to allow farmers to run experiments that establish the effect of crop application on yield in specific locations. These trials, called On-Farm Precision Experiments (OFPE), leverage the ability to precisely control the application type and rate using GPS-enabled machinery while conducting these experiments. While maps attempting to display this relationship exist, they do not follow the principles of effective chart design. Our objectives are to identify the perceptual issues in current visualizations from our motivating example and to propose plots to mitigate these challenges. By documenting the process of improving graphics to increase comprehension and ease of use, these ideas can be used with similar data in the agricultural field to display it better. Visualizing the data more effectively makes the information presented more attainable for more people and may allow further insight into the data.
+A standard method to display the relationship between two variables is through visualization. However, if these variables occupy the same spatial domain, there is difficulty in perceiving any statistical relationships between the data as they do not conform to the principles of effective chart design. Data occupying the same spatial domain is commonplace in the agricultural field. We illustrated challenges and potential solutions through visualizing the relationship between crop input application and crop yield from the Data Intensive Farm Management Project (DIFM). The purpose of DIFM is to allow farmers to run large-scale On-Farm Precision Experiments (OFPE) to quantify the site-specific response of crop yield to inputs, such as nitrogen (N) and seeding rate. Understanding this relationship is crucial as inefficiently applying crop inputs, like N fertilizer, could impact profit and the environment. While maps attempting to display this relationship exist, they do not adhere to the principles of effective chart design. Our objectives were to identify and describe the perceptual issues in current visualizations of geospatial data from the DIFM project and to propose plots to mitigate these challenges. Common perceptual concerns included the overlapping of data points and the use of inappropriate color schemes. Our documented visualization redesign process for increasing the comprehension of a graphic can be employed to improve graphics with similar data in other agricultural fields. During this process we used different visual layouts for comparing pieces of information. Visualizing the data more effectively could make the information more attainable for people and may allow further insight into the data. More importantly, better data visualization of how inputs affect crop yield and other relevant metrics could enhance growers outreach, promoting further adoption of new management practices.
 
 
 **File Structure**
@@ -15,6 +12,8 @@ A standard method to display the relationship between two variables is through v
 
 + code
   - Code to develop suggested plots used in paper
-  - Note: We are unable to provide the data at this time. File contains a description of what the provided data frames would look like
 + interactive-example.html 
-  - Interactive plot example
+  - Interactive plot example discussed in paper
++ data
+  - example data to try plot code
+
